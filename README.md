@@ -1,4 +1,4 @@
-# An old Hyper
+# An old Hype
 
 Hyper(term) theme inspired by a galaxy far far away...
 
