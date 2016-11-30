@@ -20,7 +20,7 @@ const falcon = { // derived directly from the hull
 exports.decorateConfig = config => Object.assign({}, config, {
 	backgroundColor: falcon.window,
 	foregroundColor: falcon.white,
-	borderColor: falcon.lightgrey,
+	borderColor: falcon.darkgrey,
 	cursorColor: luke,
 	colors: {
 		black: falcon.black,
@@ -29,7 +29,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
 		yellow: threePiO,
 		blue: r2,
 		magenta: luke,
-		cyan: falcon.lightgrey,
+		cyan: r2,
 		white: falcon.white,
 		lightBlack: falcon.darkgrey,
 		lightRed: vader,
@@ -37,18 +37,18 @@ exports.decorateConfig = config => Object.assign({}, config, {
 		lightYellow: threePiO,
 		lightBlue: r2,
 		lightMagenta: luke,
-		lightCyan: falcon.lightgrey,
+		lightCyan: r2,
 		lightWhite: falcon.white
 	},
 	css: `
 		${config.css}
-        .tab_tab {
-            background-color: ${falcon.window}
-            border: 1px solid ${falcon.darkgrey};
-        }
         .tab_active {
-            background-color: ${falcon.window};
-            color: ${luke} !important;
+            border-bottom: none !important;
+		}
+
+        .tab_textActive .tab_textInner::before {
+            color: ${luke};
+            content: '► ';
 		}
         .splitpane_divider {
             background-color: ${falcon.darkgrey} !important;
