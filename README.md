@@ -1,5 +1,7 @@
 # An old Hype
 
+[![CircleCI](https://circleci.com/gh/erikmueller/an-old-hype.svg?style=svg)](https://circleci.com/gh/erikmueller/an-old-hype)
+
 > Hyper theme inspired by a galaxy far far away...
 
 Based on [An Old Hope](https://github.com/JesseLeite/an-old-hope-syntax-atom) - a splendid atom syntax theme by Jesse Leite
