@@ -34,7 +34,7 @@ config: {
         // Switch from luke's orange uniform to master yoda (check the available styles above)
         style: 'yoda',
         // Change the character that mars a tab active
-        tabActiveMarker: '💁'
+        tabActiveMarker: '►'
     },
     ...
 }
