@@ -29,7 +29,7 @@ config: {
     ...
     // Customize the theme
     themeSettings: {
-        // Do not make background transparent (default is 0.9)
+        // Do not make background transparent (default is 0.6)
         opacity: 1,
         // Switch from luke's orange uniform to master yoda (check the available styles above)
         style: 'yoda',
