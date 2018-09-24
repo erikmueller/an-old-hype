@@ -1,0 +1,12 @@
+{
+    "name": "an-old-hype",
+    "description": "Customizable Hyper theme inspired by a galaxy far far away...",
+    "type": "theme",
+    "preview": "https://cdn.rawgit.com/erikmueller/an-old-hype/master/screen.png",
+    "colors": [
+      "#ef7c2a",
+      "#4fb4d8",
+      "#848794"
+    ],
+    "dateAdded": "1524048709796"
+}
