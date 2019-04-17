@@ -6,6 +6,17 @@
 
 Based on [An Old Hope](https://github.com/JesseLeite/an-old-hope-syntax-atom) - a splendid atom syntax theme by Jesse Leite
 
+## Usage
+
+Open the ~/.hyper.js file (on Mac you can simply press Cmd + ,) and go to the plugins section and add
+
+
+```js
+plugins: ['an-old-hype']
+```
+
+to the plugins array.
+
 ## Features
 
 * __Transparent background__ - Opacity can be customized
