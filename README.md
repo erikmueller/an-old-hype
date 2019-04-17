@@ -8,7 +8,7 @@ Based on [An Old Hope](https://github.com/JesseLeite/an-old-hope-syntax-atom) - 
 
 ## Usage
 
-Open the ~/.hyper.js file (on Mac you can simply press Cmd + ,) and go to the plugins section and add
+Open the `~/.hyper.js` file (on Mac you can simply press `Cmd`+`,`) and go to the plugins section and add
 
 
 ```js
